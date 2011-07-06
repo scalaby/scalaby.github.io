@@ -3,8 +3,49 @@ layout: default
 title: Scala Enthusiasts Belarus
 ---
 <h1 class="span-24">Scala Enthusiasts Belarus</h1>
-<div class="span-24">
+<div class="span-9 large">
+	<h2>Announcements</h2>
 {% for post in site.posts %}
   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
+<div class="span-8">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FScala-Enthusiasts-Belarus%2F137171759692484&amp;width=292&amp;colorscheme=light&amp;border_color&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:427px;" allowTransparency="true"></iframe>
+</div>
+<div class="span-7 last">
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('scalaby').start();
+</script>
+</div>
+<div class="span-24">
+	<script src="http://feeds.feedburner.com/ScalaEnthusiastsBelarusGoogleGroup?format=sigpro" type="text/javascript" ></script><noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/ScalaEnthusiastsBelarusGoogleGroup"></a><br/>Powered by FeedBurner</p> </noscript>
+</div>
+
