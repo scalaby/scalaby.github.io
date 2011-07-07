@@ -1,51 +1,200 @@
----
-layout: default
-title: Scala Enthusiasts Belarus
----
-<h1 class="span-24">Scala Enthusiasts Belarus</h1>
-<div class="span-9 large">
-	<h2>Announcements</h2>
-{% for post in site.posts %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</div>
-<div class="span-8">
-<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FScala-Enthusiasts-Belarus%2F137171759692484&amp;width=292&amp;colorscheme=light&amp;border_color&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:427px;" allowTransparency="true"></iframe>
-</div>
-<div class="span-7 last">
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 6000,
-  width: 250,
-  height: 300,
-  theme: {
-    shell: {
-      background: '#333333',
-      color: '#ffffff'
-    },
-    tweets: {
-      background: '#000000',
-      color: '#ffffff',
-      links: '#4aed05'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-}).render().setUser('scalaby').start();
-</script>
-</div>
-<div class="span-24">
-	<script src="http://feeds.feedburner.com/ScalaEnthusiastsBelarusGoogleGroup?format=sigpro" type="text/javascript" ></script><noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/ScalaEnthusiastsBelarusGoogleGroup"></a><br/>Powered by FeedBurner</p> </noscript>
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Scala Enthusiasts Belarus</title>
+        <link rel="stylesheet" href="style/main.css">
+    </head>
 
+    <body>
+
+        <div class="body center">
+
+            <div class="header">
+                <a class="link" href="#">
+                    <div class="header-main">#SCALA<font class="red-link">BY</font></div>
+                    <div class="header-sub">Scala в Беларуси</div>
+                </a>
+            </div>
+
+            <table class="layout" width="100%">
+                <tr>
+                    <td class="left-column">
+                        <div class="next-meetup">
+                            <div class="nm-next">СЛЕДУЮЩАЯ</div>
+                            <div class="nm-meetup">ВСТРЕЧА</div>
+
+                            <div class="meetup-date">
+                                <div class="md-date" align="center">13</div>
+                                <div class="md-month" align="center">АВГУСТА</div>
+                            </div>
+                            <div align="center"><a class="link nm-program" href="#">ПРОГРАММА</a></div>
+                            <div align="center" class="nm-participate"><a class="red-link" href="#">УЧАСТВОВАТЬ!</a></div>
+                        </div>
+
+                        <div class="past-meetups">
+                            <div align="center" class="pm-header">ПРОШЕДШИЕ ВСТРЕЧИ</div>
+
+                            <table class="pm" cellpadding="0" cellspacing="0">
+                                <tr><td class="pm-id" rowspan="3">#2</td><td class="pm-date">29/06/2011</td></tr>
+                                <tr><td><a class="wlink pm-media" href="#">МЕДИА</a></td></tr>
+                                <tr><td><a class="wlink pm-discuss" href="#">ОБСУЖДЕНИЯ</a></td></tr>
+                            </table>
+
+                            <table class="pm" cellpadding="0" cellspacing="0">
+                                <tr><td class="pm-id" rowspan="3">#1</td><td class="pm-date">04/06/2011</td></tr>
+                                <tr><td><a class="wlink pm-media" href="#">МЕДИА</a></td></tr>
+                                <tr><td><a class="wlink pm-discuss" href="#">ОБСУЖДЕНИЯ</a></td></tr>
+                            </table>                
+
+                            <div align="center" class="pm-more"><a class="red-link" href="#">БОЛЬШЕ...</a></div>
+                        </div>
+
+                        <div class="twitter">
+                            <a class="link" href="#"><img src="images/twitter.png"/></a>
+                            Интересный тред о том, как развеивать беспочвенные страхи 
+                            работодателей и клиентов перед использованием Scala ~> 
+                            groups.google.com/group/scala-de…
+                            <div class="twitt-date">22/07/2011</div>
+                        </div>
+
+                        <div class="facebook">
+                            <div align="center">
+                                <a class="link" href="#"><img src="images/facebook.png"/></a>
+                            </div>
+                            <div class="fb-status">
+                                Интересный тред о том, как развеивать беспочвенные страхи 
+                                работодателей и клиентов перед использованием Scala ~> 
+                                groups.google.com/group/scala-de…
+                                <div class="twitt-date">22/07/2011</div>
+                            </div>
+                            <div class="fb-status">
+                                Интересный тред о том, как развеивать беспочвенные страхи 
+                                работодателей и клиентов перед использованием Scala ~> 
+                                groups.google.com/group/scala-de…
+                                <div class="twitt-date">22/07/2011</div>
+                            </div>
+                            <div class="fb-status">
+                                Интересный тред о том, как развеивать беспочвенные страхи 
+                                работодателей и клиентов перед использованием Scala ~> 
+                                groups.google.com/group/scala-de…
+                                <div class="twitt-date">22/07/2011</div>
+                            </div>                    
+                        </div>                            
+                    </td>
+                    <td class="right-column">
+
+                        <div class="feed">
+                            <div class="feed-header">ЛЕНТА
+                                <div class="line"></div>
+                            </div>
+                            <div class="main-post">
+                                <a class="link" href="#">
+                                    <div class="main-post-date">29/06/2011</div>
+                                    <div class="main-post-title">Scala IDE 2.8.0.RC5 уже здесь</div>
+                                </a>
+                                <div class="main-post-body">Вышла новая версия плагина для Eclipse Scala IDE, 
+                                    выводящая поддержку языка Scala в Eclipse на совершенно
+                                    новый уровень. А именно — с ней реально можно работать. 
+                                    Я запускаю JUnit тесты, написанные на Scala, прямо из 
+                                    Eclipse! Не без некоторых косяков, конечно, например, 
+                                    плагину до сих пор тяжело распознавать изменения в Java
+                                    классах из соседнего Maven модуля, но по сравнению с тем,
+                                    что было — небо и земля.                        
+                                    Требует Scala 2.8.0.RC5 </div>
+                            </div>
+
+                            <div class="old-posts">
+                                <div class="old-post">
+                                    <a class="link" href="#">
+                                        <font class="post-date">27/06/2011</font><font class="post-title">Разработчик Твиттера о переходе компании с Ruby на Scala и Java</font>
+                                    </a>
+                                </div>
+                                <div class="old-post">
+                                    <a class="link" href="#">
+                                        <font class="post-date">20/06/2011</font><font class="post-title">Spark: дата-майнинг до 30x быстрее Hadoop</font>
+                                    </a>
+                                </div>                                
+                                <div class="old-post">
+                                    <a class="link" href="#">
+                                        <font class="post-date">14/06/2011</font><font class="post-title">Lift: простой пример AJAX-загрузки данных</font>
+                                    </a>
+                                </div>                                                                
+                            </div>
+
+                            <div class="feed-more"><a class="red-link" href="#">АРХИВ НОВОСТЕЙ</a></div>
+
+                        </div>
+
+                        <div class="feed">
+                            <div class="google-header">НОВОЕ В GOOGLE-ГРУППЕ
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="google-posts">
+                                <div class="google-post">
+                                    <div class="google-post-header">
+                                        <a class="link" href="#">
+                                            <font class="post-date">14/06/2011</font><font class="post-title">Петр Петров написал в теме "Lift: простой пример AJAX-загрузки данных"</font>
+                                        </a>
+                                    </div>
+                                    <div class="main-post-body">Спасибо, очень познавательно.</div>                                    
+                                </div>
+
+                                <div class="google-post">
+                                    <div class="google-post-header">
+                                        <a class="link" href="#">
+                                            <font class="post-date">14/06/2011</font><font class="post-title">Андрей Андреев написал в теме "Lift: простой пример AJAX-загрузки данных"</font>
+                                        </a>
+                                    </div>
+                                    <div class="main-post-body">Да хватит уже. Уже давно под очко пинают за такие коменты =\ </div>                                    
+                                </div>                                
+
+                                <div class="google-post">
+                                    <div class="google-post-header">
+                                        <a class="link" href="#">
+                                            <font class="post-date">14/06/2011</font><font class="post-title">Олег Олегов написал в теме "Lift: простой пример AJAX-загрузки данных"</font>
+                                        </a>
+                                    </div>
+                                    <div class="main-post-body">По-моему Lift щедро наградили краткостью написания в ущерб читаемости. Практически за каждой строчкой кода нужно лезть в API за разъяснением. Хотя может быть это только мое первое впечатление.
+                                        Интересная была бы идея сделать GWT wrapper Scala. Проект есть, но по ходу он уже 2 года в состоянии обсуждения идей. </div>                                    
+                                </div>                                
+
+                                <div class="feed-more"><a class="red-link" href="#">ПЕРЕЙТИ В ГРУППУ</a></div>
+                            </div>
+
+                        </div>
+
+                        <div class="feed">
+                            <div class="info-header">ЧТО ТАКОЕ SCALA?
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="main-post-body">Scala — мультипарадигмальный язык программирования, спроектированный кратким и типобезопасным для простого и быстрого программирования. В нем органично сочетаются возможности функционального и объектно-ориентированного программирования. Основной целью разработки был язык, обладающий хорошей поддержкой компонентного ПО.</div>                                                                
+
+                            <div class="feed-more"><a class="red-link" href="#">УЗНАТЬ БОЛЬШЕ</a></div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+            <div class="footer">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 50px;"><a href="#"><img src="images/rss.png"/></a></td>
+                        <td style="width: 50px;"><a href="#"><img src="images/linkedin-icon.png"/></a></td>
+                        <td style="width: 50px;"><a href="#"><img src="images/twitter-icon.png"/></a></td>
+                        <td style="width: 50px;"><a href="#"><img src="images/icon-facebook.png"/></a></td>
+                        <td align="right"><b>Scala Enthusiasts Belarus</b>, Minsk, 2011.<br/>
+                            Created by <a href="#" class="red-link"><b>@demonico</b></a> and <a href="#" class="red-link"><b>@remeniuk</b></a><br/>
+                            Some rights reserved (c).
+                        </td>
+                    </tr>
+                </table>                
+            </div>
+
+        </div>
+
+    </body>
+</html>
