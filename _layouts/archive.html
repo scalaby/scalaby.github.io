@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="feed">
+  <div class="feed-header"> {{page.title}}
+    <div class="line"></div>
+  </div>
+  <div class="old-posts">
+    {% for post in site.posts %}
+      {% if post.categories contains page.category %}
+        <div class="old-post">
+          <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          <span class="post-title"><a class="link" href="{{ post.url }}">{{ post.title }}</a></span>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

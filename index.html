@@ -1,0 +1,73 @@
+---
+is_index: true
+layout: default
+---
+<div class="feed">
+  <div class="feed-header">
+    ЛЕНТА
+    <div class="line"></div>
+  </div>
+  {% for post in site.categories.news limit:1 %}
+    <div class="main-post">
+        <div class="clearfix">
+            <div class="main-post-date">
+              {{ post.date | date: "%d/%m/%Y" }}
+            </div>
+          <div class="main-post-author">{{ post.author }}</div>
+        </div>
+        <div class="main-post-title">
+          <a href="{{ post.url }}" class="link">{{ post.title }}</a>
+        </div>
+      <div class="main-post-body">{{ post.content | truncatewords : 100 }}</div>
+
+      <a class="disqus-link" href="http://{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">First article</a>      
+    </div>
+  {% endfor %}
+  <div class="old-posts">
+  {% for post in site.categories.news limit:3 offset:1%}
+    <div class="old-post">
+      <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+      <span class="post-title"><a class="link" href="{{ post.url }}">{{ post.title }}</a></span>
+      <div>
+        <a class="disqus-link" href="http://{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">First article</a>              
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+  <div class="feed-more"><a class="red-link" href="/news">Архив новостей</a></div>
+</div>
+
+<div class="feed">
+  <div class="google-header">Новое в Google-группе
+    <div class="line"></div>
+  </div>
+
+  <div class="google-posts">
+    <div class="google-entries"></div>
+    <div class="feed-more"><a href="{{ site.google.group.url }}">Перейти в группу</a></div>
+  </div>
+</div>
+
+<div class="feed">
+  {% for post in site.categories.about limit:1%}
+    <div class="main-post">
+      <div class="info-header">{{ post.title }}
+        <div class="line"></div>
+      </div>    
+
+      <div class="main-post-body">{{ post.content | truncatewords : 100 }}</div>
+      <div class="feed-more"><a class="red-link" href="{{ post.url }}">Узнать больше</a></div>
+    </div>
+  {% endfor %}                                                     
+</div>
+
+<script type="text/javascript">
+  var disqus_shortname = 'scalaby';
+  //var disqus_developer = 1;
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>

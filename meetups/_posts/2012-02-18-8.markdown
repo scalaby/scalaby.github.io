@@ -1,0 +1,56 @@
+---
+layout: page
+title: "#8"
+media: "/meetups/2012/02/18/8.html"
+author: Василий Ременюк
+discussion: "http://groups.google.com/group/scala-enthusiasts-belarus/browse_thread/thread/6834c2316f71b458"
+---
+
+В прошедшую субботу состоялись первые, в наступившем году, посиделки [scala.by](http://scala.by), за номером 8. 
+
+&nbsp;
+
+<img src="/media/img/scalaby8/0.jpg" width="544" />
+
+&nbsp;
+
+Открывал встречу захватывающей лекцией о комбинаторах парсеров большой друг нашего коммьюнити, Илья [@lambdamix](https://twitter.com/#!/lambdamix) Ключников (кандидат физико-математических наук, <a href="http://www.keldysh.ru/">институт прикладной математики им. М.В. Келдыша</a>, <a href="http://www.ras.ru/">Российская Академия Наук</a>, Ad Optimization Analyst в [Lifestreet](http://t.co/1lWA8iT), Москва). Все 2 часа презентации, 30 человек в аудитории просидели, буквально, с открытыми ртами, вслушиваясь в каждое слово Ильи, и опомнились, только когда началась Q&A сессия.
+
+
+<object  width="544" height="400"><param name="video" value="http://static.video.yandex.ru/lite/vasil-remeniuk/qy4o678cyy.3527/"/><param name="allowFullScreen" value="true"/><param name="scale" value="noscale"/><embed src="http://static.video.yandex.ru/lite/vasil-remeniuk/qy4o678cyy.3527/" type="application/x-shockwave-flash"  width="544" height="400" allowFullScreen="true" scale="noscale"> </embed></object>
+
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11724170" width="544" height="454" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">unwantedtext</iframe>
+
+&nbsp;
+
+Вслед за [Ильей Ключниковым](https://twitter.com/#!/lambdamix), также в формате телемоста, выступал [Александр Азаров](https://twitter.com/#!/aazarov) (PhD, технический директор [osinka.ru](http://osinka.ru), Москва), который уже приезжал ранее на встречи scala.by. Александр рассказал о том, как он победил с помощью Parser Combinators, на порядок улучшив user experience, огромную головную болью разработчиков форумов - BBCode.
+
+<object width="544" height="400"><param name="video" value="http://static.video.yandex.ru/lite/vasil-remeniuk/499u827b4i.5011/"></param><param name="allowFullScreen" value="true"></param><param name="scale" value="noscale"></param><embed src="http://static.video.yandex.ru/lite/vasil-remeniuk/499u827b4i.5011/" type="application/x-shockwave-flash" width="544" height="400" allowFullScreen="true" scale="noscale" ></embed></object>
+
+&nbsp;
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11724976" width="544" height="454" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">unwantedtext</iframe>
+
+
+Исходный код и слайды презенатции Александра можно найти на [github](https://github.com/alaz/slides-err-recovery).
+
+&nbsp;
+
+Закрывал встречу экспириенс репортом Алексей [@CheatEx](http://twitter.com/#!/cheatex) Злобин, представитель славной компании [E-Legion](http://www.e-legion.ru/), продвигающей Scala в России, и организовавшей [первый митап Scala-энтузиастов в Питере](http://habrahabr.ru/company/e-Legion/blog/130545/). Алексей рассказал о том, как его команда применяла Scala, Lift и Scalaz при создании социального букмарклет-сервиса [Goozy](http://goozy.com/).
+
+<img src="/media/img/scalaby8/1.jpg" width="544" />
+
+&nbsp;
+
+<img src="/media/img/scalaby8/2.jpg" width="544" />
+
+&nbsp;
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/11743620" width="544" height="454" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">unwantedtext</iframe>
+
+Увы, без провала при записи скринкаста не обошлось и в этот раз - записались только 5 первые минут презентации... К счастью, Алексей выступал с презентацией на схожую тему на [ScalaDay/ScalaSPB](http://www.e-legion.ru/blog/technical-blog/scala-in-goozy/), и вы можете получить общее представление о его докладе в Минске, посмотрев видео с Питерского Scala-митапа:
+
+<iframe width="544" height="303" src="http://www.youtube.com/embed/ehEIneSpnUY" frameborder="0">unwantedtext</iframe>
+
+Там же к слову, можно найти и [транскрипт презентации](http://www.e-legion.ru/blog/technical-blog/scala-in-goozy/).

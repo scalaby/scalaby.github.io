@@ -1,0 +1,12 @@
+* {
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+a {
+  color: white; }
+
+.fbConnectWidgetFooter {
+  display: none; }
+
+span.connect_widget_connected_text {
+  color: white; }

@@ -1,0 +1,30 @@
+---
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<!-- RSS as a "standard" is terrible; use Atom.  -coyled -->
+<!-- http://coyled.com/atom.xml -->
+
+  <channel>
+    <title>Scala Enthusiasts Belarus</title>
+    <link>http://scala.by/</link>
+    <atom:link href="http://scalaby.github.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Scala Enthusiasts Belarus Announcements</description>
+    <language>ru-ru</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
+
+    {% for post in site.categories.news %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>http://scala.by{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
+      <author>scala-enthusiasts-belarus@googlegroups.com (Scala Enthusiasts Belarus)</author>
+      <guid>http://scala.by{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>

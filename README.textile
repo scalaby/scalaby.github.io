@@ -1,0 +1,22 @@
+h1. This is the data for "scala.by":http://scala.by site
+
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever we push this repository to GitHub.
+
+h1. Test locally
+
+* Install Ruby
+* Install Bundler `gem install bundler`
+* Run `bundle install` once
+* Run `bundle exec jekyll serve`
+* Local version is running at http://localhost:4000
+
+Detailed instructions are located "here":https://help.github.com/articles/using-jekyll-with-pages/
+
+h1. License
+
+The following directories and their contents are Copyright Scala Enthusiasts Belarus. You may not reuse anything therein without our permission:
+
+* _posts/
+* media/
+
+All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to "scala.by":http://scala.by would be appreciated, but is not required.

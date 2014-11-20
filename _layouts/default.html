@@ -1,0 +1,131 @@
+---
+nextmeetup:
+  day: 24
+  month: Ноября
+  program_url: "/news/2012/11/07/meetup-10.html"
+  participate_url: "https://www.facebook.com/events/446707065366966"
+  vote_url: "#"
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Scala Enthusiasts Belarus - Scala в Беларуси {% if page.title != null %}- {{ page.title }}{% endif %}</title>
+  <meta name="keywords" content="Scala, Belarus, Беларусь, user group, scalaby, Minsk, Минск, программисты, группа пользователей"/>
+  <meta name="description" content="Community of Scala programming language users in Belarus. Коммьюнити пользователей языка программирования Scala в Беларуси (Минск)"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="all" href="/media/css/style.css" />
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+  <div id="container">  
+    <header class="page-header">
+      <div class="wrap clearfix">
+        <div class="page-header-info">
+          <h1 class="site-title">
+            <a href="/">#scala<span class="by">by</span></a>
+          </h1>
+          <h3 class="site-description">Scala в Беларуси</h3>
+        </div>
+        <nav class="page-nav">
+          <a href="/" title="Домой" class="page-nav-link">
+            <img src="/media/img/home_32.png"/>
+          </a>
+          <a href="/news" title="Лента" class="page-nav-link">
+            <img src="/media/img/satellite_ground_32.png"/>
+          </a>
+          <a href="/meetups" title="Встречи" class="page-nav-link">
+            <img src="/media/img/group_full_32.png"/>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main" role="main">
+      <aside id="widgets">
+        {% include nextMeetupUndefined.html %}
+        <div class="past-meetups">
+          <h3 align="center" class="pm-header">Прошедшие встречи</h3>
+          {% for post in site.categories.meetups limit:2 %}
+            <div class="past-meetup clearfix">
+              <div class="past-meetup-number">{{ post.title }}</div>
+              <div class="past-meetup-info">
+                <p>{{ post.date | date: "%d/%m/%Y" }}</p>
+                <p><a href="{{ post.media }}" class="wlink pm-media">Медиа</a></p>
+                <p><a href="{{ post.discussion }}" class="wlink pm-discuss">Обсуждения</a></p>
+              </div>
+            </div>
+          {% endfor %}
+          <div class="past-meetup-more">
+            <a href="/meetups" class="past-meetup-more-link">Больше...</a>
+          </div>
+        </div>
+
+        <div class="twitter">
+          <a href="http://twitter.com/{{ site.twitter.account }}" class="link"><img src="/media/img/twitter.png" /></a>
+          <span class="tweet-text"></span>
+          <div class="tweet-date"></div>
+        </div>
+
+        <div class="facebook">
+          <div>
+            <a href="{{ site.facebook.page }}" class="link"><img src="/media/img/facebook.png"/></a>
+          </div>
+          <div class="facebook-entries">
+          </div>
+        </div>
+
+        <div class="friends" align="center">
+          <a href="http://epam.com"><img src="/media/img/epam.png"/></a>
+          <a href="http://dev.by"><img src="/media/img/devby.png"/></a>
+          <a href="http://it-job.by"><img src="/media/img/itjob.png"/></a>
+        </div>        
+
+        <div class="fb-fan-page">
+          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/Scala-Enthusiasts-Belarus/137171759692484" width="240" height="100px" show_faces="true" border_color="#fffae1" stream="false" header="false"></fb:like-box>
+      </aside>
+      <section id="content">
+        {{ content }}
+      </section>
+    </div>
+
+    <footer class="page-footer">
+      <section class="buttons">
+        <div class="page-footer-button"><a href="/rss.xml"><img src="/media/img/rss.png"/></a></div>
+        <div class="page-footer-button plus">
+          <g:plusone size="medium"></g:plusone>
+        </div>
+      </section>
+
+      <section class="copyright-info">
+        <p><strong>Scala Enthusiasts Belarus</strong>, 2011.</p>
+        <p>
+          Created by
+          <a href="http://twitter.com/demonico" class="red-link"><strong>@demonico</strong></a>
+          and <a href="http://twitter.com/remeniuk" class="red-link"><strong>@remeniuk</strong></a>
+        </p>
+        <p>Some rights reserved (c).</p>
+      </section>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi?key={{ site.google.api_key  }}"></script>
+  <script type="text/javascript">
+    window.feedUrls = {
+      facebook: '{{ site.twitter.feed }}',
+      twitter: '{{ site.facebook.feed }}',
+      google: '{{ site.google.group.feed }}'
+    }
+    window.twitterAccount = '{{ site.twitter.account }}';
+  </script>
+  <script type="text/javascript" src="/media/js/script.js"></script>
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'ru'}</script>
+  <script>
+    var _gaq=[['_setAccount','UA-24657180-1'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

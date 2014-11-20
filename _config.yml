@@ -1,0 +1,16 @@
+auto: true
+url: scala.by
+markdown: kramdown
+
+google:
+  api_key: ABQIAAAAlPCDFRFbf7YN138hm_op1xRxUSnJ5PxnYfB7BCJ71TaIGh4K-RTI0Tfk9AZXRjs45BHoyPV07sfGAA
+  group:
+    url: "http://groups.google.com/group/scala-enthusiasts-belarus"
+    feed: "https://groups.google.com/group/scala-enthusiasts-belarus/feed/rss_v2_0_msgs.xml"
+linkedin: "http://www.linkedin.com/groups/Scala-Enthusiasts-Belarus-3870650"
+twitter:
+  account: scalaby
+  feed: "http://twitter.com/statuses/user_timeline/scalaby.rss"
+facebook:
+  page: "http://www.facebook.com/pages/Scala-Enthusiasts-Belarus/137171759692484"
+  feed: "http://www.facebook.com/feeds/page.php?id=137171759692484&format=rss20"

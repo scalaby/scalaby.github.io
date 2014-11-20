@@ -1,0 +1,9 @@
+---
+layout: page
+title: Scala и функциональное программирование на встрече Software Craftsmanship
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+30 мая, в 19-00, [в офисе EPAM Systems в Уручье](http://maps.yandex.ru/?um=RWd1NqAawLPASgq3JXHgwwvZIrJaL1eC&l=map), пройдет встреча сообщества [Software Craftsmanship](https://www.facebook.com/groups/318777568182072), посвященная функциональному программированию. [Александр Казачёнок](https://www.facebook.com/kazachonak) выступит с вводным докладом о Scala, и продемонстрирует на его примере особенности функциональной парадигмы.
+
+Следим за новостями [в группе](https://www.facebook.com/groups/318777568182072), и ждем начала регистрации на встречу!
+

@@ -1,0 +1,16 @@
+---
+layout: page
+title: Раундап, посвященный типам в языках программирования и системе типов Scala
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+**Новость #1**
+
+Завтра, 4-го июля, [в офисе EPAM Systems](http://maps.yandex.ru/?um=RWd1NqAawLPASgq3JXHgwwvZIrJaL1eC&l=map) пройдет второй митап коммьюнити [Software Craftsmanship Belarus](https://www.facebook.com/groups/318777568182072/), посвященный функциональному программированию! 
+
+Будем говорить о типах в языках программирования, системе типов Scala, типах высших порядков, гетерогенных списках, типах-фантомах, и прочей магии.
+
+Зарегистрироваться на встречу можно здесь: [https://www.facebook.com/events/256166024497056/](https://www.facebook.com/events/256166024497056/)
+
+**Новость #2**
+
+На хабре появились видео с большой конференции Scala-разработчиков, **"ScalaDev"**, состоявшейся в Санкт-Петербурге 19 мая: [http://habrahabr.ru/company/e-Legion/blog/146950/](http://habrahabr.ru/company/e-Legion/blog/146950/)

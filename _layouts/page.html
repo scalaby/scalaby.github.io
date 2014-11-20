@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="feed">
+  <div class="feed-header">
+    {{ page.title }}
+    <div class="line"></div>
+  </div>
+  <div class="main-post">
+    <div class="clearfix">
+      <div class="main-post-date">{{ page.date | date: "%d/%m/%Y" }}</div>
+      <div class="main-post-author">{{ page.author }}</div>
+    </div>
+    <div class="main-post-body">{{ content }}</div>
+    <div class="google-plus" align="right"><g:plusone size="medium"></g:plusone></div>
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'scalaby';
+      //var disqus_developer = 1;
+      var disqus_identifier = '{{ page.id }}';
+      var disqus_url = 'http://{{ site.url }}/{{ page.url }}';
+
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'ru'}</script>
+  </div>
+</div>

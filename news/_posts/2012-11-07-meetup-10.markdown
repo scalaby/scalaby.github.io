@@ -1,0 +1,27 @@
+---
+layout: page
+title: scalaby#10. Программа встречи
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+После полугодового перерыва, мы вновь решили собраться, чтобы обсудить происходящее в мире Scala: главные новости, тренды и успехи на полях.
+
+Материала, за это время, накопилось предостаточно: приближающийся релиз Scala 2.10, он-лайн курс Мартина Одерски на Coursera.com, собравший огромную аудиторию, большое количество новостей из стана Typesafe, и, наконец, презентация Александра Казаченка, которая планировалась еще на конец августа!
+
+Не отступая от добрых традиций, мы собираемся [встретиться в субботу, 24 ноября](https://www.facebook.com/events/446707065366966), и вдоволь наобщаться на интересующие темы. Послушаем 2 небольших доклада, настроимся на правильный лад, и перейдем к свободному обсуждению интересных новостей. План следующий:
+
+- Саша Казаченок расскажет о **functional reactive programming с примерами на Scala/GWT**;
+- Олег Алешко поделится своим опытом скрещивания **Vaadin и Scala**;
+- обсудим [курс Мартина Одерски](https://www.coursera.org/course/progfun);
+- предметно пройдемся по [основным фичам Scala 2.10](http://www.scala-lang.org/node/13096);
+
+Другие темы:
+
+* любимый фреймворк детства, iBatis, [портирован на Scala](http://blog.mybatis.org/), и активно развивается;
+* Akka радует [новым интерфесом акторов](http://letitcrash.com/post/32340419628/2-1-spotlight-shiny-new-actor-dsl) и доработанным [Dataflow Concurrency](http://doc.akka.io/docs/akka/snapshot/scala/dataflow.html);
+* [Eventsourced](https://github.com/eligosource/eventsourced/blob/master/README.md) - библиотека, позволяющая реализовать event-sourcing на базе акторов Akka. Буквально на днях состоялся релиз версии [0.4](https://groups.google.com/forum/#!msg/eventsourced/XruwMIHcBOs/yPl8LyDMZI4J);
+* Typesafe предоставил бесплатный доступ к **Typesafe Console** для разработчиков;
+* XSBT, [в очередной раз, обвинили в сложности](https://groups.google.com/forum/#!msg/simple-build-tool/YDRXsikl0T0/EifCD2XJhYIJ), и создании барьера для вхождения новичков, и [предложили](https://twitter.com/jboner/status/257750337493028864) внедрение алтернативного, [упрощенного формата файлов конфигурации](https://github.com/harrah/xsbt/wiki/Definition-Format-Enhancement.md). Между тем, около месяца назад [вышла очередная версия XSBT](http://blog.typesafe.com/sbt-has-a-brand-new-release-0121), с большим количетсво багфиксов;
+* проект [Spring-Scala](https://github.com/SpringSource/spring-scala) набирает обороты. К добру ли это?;
+* вышла [еще одна книга](http://www.artima.com/shop/akka_concurrency) о конкурентном и параллельном программировании в Scala;
+
+Место встречи старое - удобный офис компании EPAM Systems, расположенный неподалеку от станции метро "Уручье" (пр. Независимости, 168, 4-ый этаж). Для регистрации, отметьтесь, пожалуйста, на странице встречи в [Facebook](https://www.facebook.com/events/446707065366966), или [напишите](mailto:vasil.remeniuk@gmail.com) мне лично - это необходимо для формирования списка, который будет предоставлен службе охраны офиса.

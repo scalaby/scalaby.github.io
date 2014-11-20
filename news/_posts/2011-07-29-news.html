@@ -1,0 +1,39 @@
+---
+layout: page
+title: Новости из мира Scala за неделю (29 июля)
+author: Василий Ременюк
+---
+<script src="http://yandex.st/highlightjs/6.0/highlight.min.js"></script>
+<script> 
+	hljs.tabReplace = '    ';
+	hljs.initHighlightingOnLoad();
+</script> 
+<link rel="stylesheet" href="http://yandex.st/highlightjs/6.0/styles/default.min.css">
+<div class="post">
+    <div class="post-article">
+		<b>Вышел maintenance-релиз Scala 2.8.2 RC1</b>, <a href="http://www.scala-lang.org/node/10496">включающий ряд баг-фиксов и бэкпортов некоторых фич</a> из последующих версий.
+		<br/>
+		Кроме этого, <a href="http://www.scala-lang.org/node/10430">вышел первый релиз-кандидат из линейки Scala 2.9.1</a>. Самое существенное и заметное улучшение - значительное ускорение запуска REPL (на машине с i7qc, 8GB RAM и HDD 7200RPM, REPL запускается 3 секунды, против 13 в версии 2.9.0.1).
+		<br/>
+		В Scala 2.9.1 RC1 был включен патч, вызвавший неоднозначную реакцию сообщества: отныне, context/view bounds могут сосуществовать со списком implicit-параметров. Таким образом, код, представленный ниже, теперь корректен и компилируется:
+		<br/>
+		<p class="scala"><pre><code>def f[T : Manifest](l: List[T])(implicit ord: Ordering[T])</code></pre></p>
+		Это значительно упрощает работу с type class паттерном в Scala, но может привести к ряду ошибок, непонятных пользователю. 
+		К примеру, данное использование метода теперь невозможно:
+		<br/>
+		<p class="scala"><pre><code>f(List(1 -> 2, 2 -> 1))(Ordering by (_.swap))</code></pre></p>
+		Дело в том, что ограничение на контекст (Manifest) в действительности будет параметром в списке implicit-параметров, и компилятор будет сообщать о том, что в силу того, что вы используете implicits явным образом, Manifest тоже должен быть передан явно, вторым параметром.    	
+    </div>
+    <div align="center"><img src="/media/img/paragraph_16.png"/></div>
+    <div class="post-article">
+		Популярные лица в Scala-community, <b>Tony Morris, Runar Bjarnason и Paul Chiusano <a href=" http://groups.google.com/group/scala-user/browse_thread/thread/bb0f1c8b8c84d098">подписали с Manning контракт</a> на книгу о функциональном программировании в Scala</b>. Все три автора известны своими заметками в блогах, обучающими программистов с ОО-складом мышления тонкостям функционального подхода, и активным участием в различных сообществах (stackoverflow.com, scala-user, scala-debate). 
+	</div>
+	<div align="center"><img src="/media/img/paragraph_16.png"/></div>
+	<div class="post-article">
+		<b>Мартин Одерски был одним из пяти выступающих, открывающих <a href="http://www.oscon.com/oscon2011/public/schedule/grid/java/2011-07-25">OSCON Java’11</a></b>. <a href="http://www.youtube.com/watch?v=3jg1AheF4n0">В своем keynote</a> Мартин рассказал о том, как Scala сокращает время на разработку, и упрощает решение проблем параллелизма и конкурентности. Кроме этого, Мартин выступал с полноразмерными докладами об использовании Akka в облаке (<a href="http://www.oscon.com/oscon2011/public/schedule/detail/19952">Above the Clouds: Introducting Akka</a>) и параллельных коллекциях (<a href="http://www.oscon.com/oscon2011/public/schedule/detail/17884">Future-proofing collections: From Mutable To Persistent To Parallel</a>).
+	</div>
+	<div align="center"><img src="/media/img/paragraph_16.png"/></div>
+	<div class="post-article">
+		До <a href="http://scala.by/news/2011/07/11/meetup-3.html">встречи Scala Enthusiasts Belarus #3</a> осталась ровно неделя! Помещение и оборудование готовы. В этот раз, надеемся, с записью на видео проблем не будет.    
+    </div>
+</div>
