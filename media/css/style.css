@@ -51,9 +51,9 @@ body, button, input, select, textarea { font-family: 'PT Serif Caption', sans-se
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: ##b6b6b6; }
+a:visited { color: #b6b6b6; }
+a:hover { color: ##b6b6b6!important; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -224,13 +224,16 @@ img {
 
 body {
   font-family: 'PT Serif Caption', Serif;
-  background-color: #fffae1; }
+}
 
 a, a:visited {
-  color: #b40010; }
+  text-decoration: none;
+  color: #b6b6b6; }
 
 a:hover {
-  color: #06e; }
+  color: #b6b6b6;
+  text-decoration: none;
+}
 
 .layout td {
   vertical-align: top; }
@@ -261,21 +264,19 @@ a:hover {
         border-radius: 80px;
         background: #ddb965; }
       .page-nav-link:hover {
-        background: #b40010; }
+        background: #b6b6b6; }
     .page-header-info {
       width: 320px; }
        .site-title {
+         font-family: 'Damion', cursive;
          float: right;
          margin: 0;
-         font-size: 60px;
-         text-transform: uppercase; }
+         font-size: 60px; }
          .site-title a, .site-title a:visited {
            text-decoration: none;
            color: #000; }
-         .site-title a:hover {
-           text-decoration: underline; }
          .site-title .by {
-           color: #b40010; }
+           color: #b6b6b6; }
 
 #main {
   display: inline-block;
@@ -283,11 +284,11 @@ a:hover {
   margin: 0 auto; }
   #widgets {
     float: left;
-    width: 290px;
+    width: 200px;
     margin: 0 30px; }
   #content {
     float: left;
-    width: 540px;
+    width: 630px;
     margin-left: 20px; }
 
 .header {
@@ -372,18 +373,17 @@ a:hover {
 }
 
 .page-footer {
+  border-top: solid 1px whitesmoke;
   display: inline-block;
   width: 100%;
   margin: 40px 0 20px 0;
   padding: 15px;
   font-size: 12px;
-  color: #fff;
-  border-radius: 15px;
-  background-color: #b40010; }
+  color: #b6b6b6;}
   .page-footer a, .page-footer a:visited {
-    color: #fff; }
+    color: #b6b6b6; }
   .page-footer a:hover {
-    color: #06e; }
+    color: #b6b6b6; }
   .page-footer .buttons {
     position: relative;
     top: 10px;
@@ -449,7 +449,7 @@ a:hover {
   border-radius: 15px;
   width: 100px;
   color: #fff;
-  background-color: #b40010;
+  background-color: #b6b6b6;
   margin-bottom: 10px; }
 
 .md-date {
@@ -468,11 +468,6 @@ a:hover {
   padding-left: 18px;
   background-position: 0 9px; }
 
-.nm-meetup {
-  padding-left: 67px;
-  margin-top:-8px;
-  font-size: 25px; }
-
 .site-description {
   position: relative;
   top: -15px;
@@ -485,7 +480,7 @@ a:hover {
   margin-top: -4px; }
 
 .feed {
-  margin-top: 75px; }
+  margin-top: 45px; }
 
 .feed-header {
   font-size: 25px;
@@ -496,8 +491,8 @@ a:hover {
 
 .main-post-date, .main-post-author {
   padding-top: 5px;
-  font-size: 16px;
-  color: #b40010; }
+  font-size: 14px;
+  color: #b6b6b6; }
 
 .main-post-date {
   float: left; }
@@ -510,21 +505,19 @@ a:hover {
   font-size: 20px; }
 
 .main-post-body {
-  font-size: 15px;
-  padding-top: 10px; }
+  font-size: 15px; }
 
 .old-posts {
-  font-size: 18px;
-  padding-top: 20px; }
+  font-size: 14px;}
   .old-post {
-    padding-top: 20px; }
+    padding-top: 14px; }
 
 .post-title {
   padding-left: 5px; }
 
 .feed-more {
-  padding-top: 20px;
-  font-size: 17px;
+  padding-top: 14px;
+  font-size: 14px;
   float: right; }
 
 .line {
@@ -553,13 +546,15 @@ a:hover {
   padding-top: 25px; }
 
 .nm-next, .nm-participate {
-  font-size: 20px; }
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px; }
 
 .link, .link:visited {
   color: #000; }
 
 .link:hover {
-  color: #06e; }
+  color: #b6b6b6; }
 
 .wlink, .wlink:visited {
   color: #fff; }
@@ -571,7 +566,7 @@ a:hover {
   color: #fff; }
 
 .post-date {
-  color: #b40010; }
+  color: black; }
 
 #disqus_thread {
   padding-top: 10px; }
@@ -594,12 +589,12 @@ div.dsq-trackback-url {
 #dsq-content h3 { }
 
 #dsq-content a {
-  color:#B40010 !important; }
+  color:#b6b6b6 !important; }
 
 .disqus-link, .disqus-link:visited {  
   margin-top: -20px;
   padding-left: 300px;
-  color: #b40010;
+  color: #b6b6b6;
   font-size: 13px; }
 .disqus-link:hover {
   color: #06e; }
@@ -610,7 +605,7 @@ div.dsq-trackback-url {
   padding-bottom: 0px; }
 
   .post a, .post a:visited {
-    color: #B40010; }
+    color: #b6b6b6; }
   .post a:hover {
     color: #06e; }
   .post p {
@@ -638,7 +633,7 @@ div.dsq-trackback-url {
     border-radius: 80px;  
     margin-left: 10px; }
   .navbar-link:hover {
-    background-color: #B40010; }
+    background-color: #b6b6b6; }
 
 
 
@@ -705,4 +700,87 @@ div.dsq-trackback-url {
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+}
+
+
+/* line 9, ../sass/partials/_main-content.sass */
+.nav {
+  height: 30px;
+  border-bottom: solid 1px whitesmoke;
+}
+/* line 13, ../sass/partials/_main-content.sass */
+.nav a {
+  padding: 0 0 10px 0;
+  margin-right: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #b6b6b6;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2pt;
+  font-size: 12px!important;
+  font-size: 1.2rem;
+}
+/* line 23, ../sass/partials/_main-content.sass */
+.nav a:hover {
+  color: #333337;
+}
+/* line 26, ../sass/partials/_main-content.sass */
+.nav .active {
+  border-bottom: solid 1px black;
+  color: #333337;
+}
+
+/* line 92, ../sass/partials/_main-content.sass */
+.home-footer {
+  padding: 10px 0;
+}
+/* line 95, ../sass/partials/_main-content.sass */
+.home-footer a {
+  color: #999999;
+  border-bottom: 0 transparent;
+}
+/* line 99, ../sass/partials/_main-content.sass */
+.home-footer a:hover {
+  color: #333333;
+  border-bottom: 0 transparent;
+}
+
+.sidebar {
+  padding: 15px;
+  height: 100%;
+  background: url(../img/epfl.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: all, 450ms;
+  -moz-transition: all, 450ms;
+  -o-transition: all, 450ms;
+  transition: all, 450ms;
+}
+
+.socials-sidebar a {
+  background-color: #b6b6b6;
+  color: white;
+  margin: 3px;
+  width: 25px;
+}
+
+.btn {
+display: inline-block;
+padding: 6px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border-radius: 4px;
 }

@@ -1,21 +1,19 @@
 ---
 nextmeetup:
   day: 24
-  month: Ноября
-  program_url: "/news/2012/11/07/meetup-10.html"
-  participate_url: "https://www.facebook.com/events/446707065366966"
+  month: Янв, 2015
+  participate_url: "https://groups.google.com/forum/#!topic/scala-enthusiasts-belarus/j61FeKYcKRw"
   vote_url: "#"
 ---
 <!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Scala Enthusiasts Belarus - Scala в Беларуси {% if page.title != null %}- {{ page.title }}{% endif %}</title>
-  <meta name="keywords" content="Scala, Belarus, Беларусь, user group, scalaby, Minsk, Минск, программисты, группа пользователей"/>
   <meta name="description" content="Community of Scala programming language users in Belarus. Коммьюнити пользователей языка программирования Scala в Беларуси (Минск)"/>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="all" href="/media/css/style.css" />
-  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
   <div id="container">  
@@ -23,45 +21,29 @@ nextmeetup:
       <div class="wrap clearfix">
         <div class="page-header-info">
           <h1 class="site-title">
-            <a href="/">#scala<span class="by">by</span></a>
+            <a href="/">#scalaby</a>
           </h1>
-          <h3 class="site-description">Scala в Беларуси</h3>
         </div>
-        <nav class="page-nav">
-          <a href="/" title="Домой" class="page-nav-link">
-            <img src="/media/img/home_32.png"/>
-          </a>
-          <a href="/news" title="Лента" class="page-nav-link">
-            <img src="/media/img/satellite_ground_32.png"/>
-          </a>
-          <a href="/meetups" title="Встречи" class="page-nav-link">
-            <img src="/media/img/group_full_32.png"/>
-          </a>
-        </nav>
       </div>
     </header>
 
     <div id="main" role="main">
       <aside id="widgets">
-        {% include nextMeetupUndefined.html %}
-        <div class="past-meetups">
-          <h3 align="center" class="pm-header">Прошедшие встречи</h3>
-          {% for post in site.categories.meetups limit:2 %}
-            <div class="past-meetup clearfix">
-              <div class="past-meetup-number">{{ post.title }}</div>
-              <div class="past-meetup-info">
-                <p>{{ post.date | date: "%d/%m/%Y" }}</p>
-                <p><a href="{{ post.media }}" class="wlink pm-media">Медиа</a></p>
-                <p><a href="{{ post.discussion }}" class="wlink pm-discuss">Обсуждения</a></p>
-              </div>
-            </div>
-          {% endfor %}
-          <div class="past-meetup-more">
-            <a href="/meetups" class="past-meetup-more-link">Больше...</a>
-          </div>
+        {% include nextMeetupDefined.html %}
+
+        <div style="padding-top: 25px;" align="center" class="socials-sidebar">
+          <a class="btn btn-facebook" href="https://www.facebook.com/pages/Scala-Enthusiasts-Belarus/137171759692484" title="Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="btn btn-twitter" href="http://twitter.com/scalaby" title="Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="btn btn-github" href="https://github.com/scalaby" title="GitHub">
+            <i class="fa fa-github"></i>
+          </a>                              
         </div>
 
-        <div class="twitter">
+        <!--div class="twitter">
           <a href="http://twitter.com/{{ site.twitter.account }}" class="link"><img src="/media/img/twitter.png" /></a>
           <span class="tweet-text"></span>
           <div class="tweet-date"></div>
@@ -73,36 +55,21 @@ nextmeetup:
           </div>
           <div class="facebook-entries">
           </div>
-        </div>
+        </div-->
 
-        <div class="friends" align="center">
-          <a href="http://epam.com"><img src="/media/img/epam.png"/></a>
-          <a href="http://dev.by"><img src="/media/img/devby.png"/></a>
-          <a href="http://it-job.by"><img src="/media/img/itjob.png"/></a>
-        </div>        
-
-        <div class="fb-fan-page">
-          <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/pages/Scala-Enthusiasts-Belarus/137171759692484" width="240" height="100px" show_faces="true" border_color="#fffae1" stream="false" header="false"></fb:like-box>
       </aside>
-      <section id="content">
+      <section id="content">      
         {{ content }}
       </section>
     </div>
 
     <footer class="page-footer">
-      <section class="buttons">
-        <div class="page-footer-button"><a href="/rss.xml"><img src="/media/img/rss.png"/></a></div>
-        <div class="page-footer-button plus">
-          <g:plusone size="medium"></g:plusone>
-        </div>
-      </section>
-
       <section class="copyright-info">
-        <p><strong>Scala Enthusiasts Belarus</strong>, 2011.</p>
+        <p>Scala Enthusiasts Belarus, 2011 - 2015.</p>
         <p>
           Created by
-          <a href="http://twitter.com/demonico" class="red-link"><strong>@demonico</strong></a>
-          and <a href="http://twitter.com/remeniuk" class="red-link"><strong>@remeniuk</strong></a>
+          <a href="https://www.linkedin.com/pub/artyom-olshevskiy/7/458/586">Artyom Olshevskiy</a>
+          and <a href="http://twitter.com/remeniuk">@remeniuk</a>
         </p>
         <p>Some rights reserved (c).</p>
       </section>
