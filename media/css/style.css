@@ -51,9 +51,9 @@ body, button, input, select, textarea { font-family: 'PT Serif Caption', sans-se
    Links
    ========================================================================== */
 
-a { color: ##b6b6b6; }
-a:visited { color: #b6b6b6; }
-a:hover { color: ##b6b6b6!important; }
+a { color: ##808080; }
+a:visited { color: #808080; }
+a:hover { color: ##808080!important; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -228,10 +228,10 @@ body {
 
 a, a:visited {
   text-decoration: none;
-  color: #b6b6b6; }
+  color: #808080; }
 
 a:hover {
-  color: #b6b6b6;
+  color: #808080;
   text-decoration: none;
 }
 
@@ -264,7 +264,7 @@ a:hover {
         border-radius: 80px;
         background: #ddb965; }
       .page-nav-link:hover {
-        background: #b6b6b6; }
+        background: #808080; }
     .page-header-info {
       width: 320px; }
        .site-title {
@@ -276,7 +276,7 @@ a:hover {
            text-decoration: none;
            color: #000; }
          .site-title .by {
-           color: #b6b6b6; }
+           color: #808080; }
 
 #main {
   display: inline-block;
@@ -379,11 +379,11 @@ a:hover {
   margin: 40px 0 20px 0;
   padding: 15px;
   font-size: 12px;
-  color: #b6b6b6;}
+  color: #808080;}
   .page-footer a, .page-footer a:visited {
-    color: #b6b6b6; }
+    color: #808080; }
   .page-footer a:hover {
-    color: #b6b6b6; }
+    color: #808080; }
   .page-footer .buttons {
     position: relative;
     top: 10px;
@@ -449,7 +449,7 @@ a:hover {
   border-radius: 15px;
   width: 100px;
   color: #fff;
-  background-color: #b6b6b6;
+  background-color: #808080;
   margin-bottom: 10px; }
 
 .md-date {
@@ -492,7 +492,7 @@ a:hover {
 .main-post-date, .main-post-author {
   padding-top: 5px;
   font-size: 14px;
-  color: #b6b6b6; }
+  color: #808080; }
 
 .main-post-date {
   float: left; }
@@ -554,7 +554,7 @@ a:hover {
   color: #000; }
 
 .link:hover {
-  color: #b6b6b6; }
+  color: #808080; }
 
 .wlink, .wlink:visited {
   color: #fff; }
@@ -589,12 +589,12 @@ div.dsq-trackback-url {
 #dsq-content h3 { }
 
 #dsq-content a {
-  color:#b6b6b6 !important; }
+  color:#808080 !important; }
 
 .disqus-link, .disqus-link:visited {  
   margin-top: -20px;
   padding-left: 300px;
-  color: #b6b6b6;
+  color: #808080;
   font-size: 13px; }
 .disqus-link:hover {
   color: #06e; }
@@ -605,7 +605,7 @@ div.dsq-trackback-url {
   padding-bottom: 0px; }
 
   .post a, .post a:visited {
-    color: #b6b6b6; }
+    color: #808080; }
   .post a:hover {
     color: #06e; }
   .post p {
@@ -633,7 +633,7 @@ div.dsq-trackback-url {
     border-radius: 80px;  
     margin-left: 10px; }
   .navbar-link:hover {
-    background-color: #b6b6b6; }
+    background-color: #808080; }
 
 
 
@@ -713,7 +713,7 @@ div.dsq-trackback-url {
   padding: 0 0 10px 0;
   margin-right: 10px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #b6b6b6;
+  color: #808080;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2pt;
@@ -760,7 +760,7 @@ div.dsq-trackback-url {
 }
 
 .socials-sidebar a {
-  background-color: #b6b6b6;
+  background-color: #808080;
   color: white;
   margin: 3px;
   width: 25px;
