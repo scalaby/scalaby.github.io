@@ -1,16 +1,22 @@
 ---
 layout: default
 ---
+  <div class="nav">
+    <a href="/" class="select-posts active">Главная</a>
+    <a href="/news" class="select-posts">Лента</a>
+    <a href="/meetups" class="select-categories">Встречи</a>
+  </div>
+
 <div class="feed">
   <h2>
     {{ page.title }}
   </h2>
   <div class="main-post">
-    <div class="clearfix">
-      <div class="main-post-date">{{ page.date | date: "%d/%m/%Y" }}</div>
-      <div class="main-post-author">{{ page.author }}</div>
-    </div>
     <div class="main-post-body">{{ content }}</div>
+    <div class="clearfix">
+      <div class="main-post-author">{{ page.author }}, {{ page.date | date: "%d/%m/%Y" }}</div>
+    </div>
+
     <div class="google-plus" align="right"><g:plusone size="medium"></g:plusone></div>
 
     <div id="disqus_thread"></div>

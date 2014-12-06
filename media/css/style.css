@@ -243,6 +243,16 @@ a:hover {
   margin: 0 auto; }
 
 .page-header {
+    background-image: url(/media/img/scalaby6/2.jpg);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: 93%;
+}
+
+.page-header {  
   margin-top: 50px;
   }
   .page-header .wrap {
@@ -250,7 +260,9 @@ a:hover {
     left: 360px;
     width: 550px; }
     .page-nav, .page-header-info {
-      float: right; }
+      float: right;
+      padding-top: 125px;
+       }
     .page-nav {
       width: 220px;
       margin-top: 13px; }
@@ -274,7 +286,7 @@ a:hover {
          font-size: 60px; }
          .site-title a, .site-title a:visited {
            text-decoration: none;
-           color: #000; }
+           color: white; }
          .site-title .by {
            color: #808080; }
 
@@ -292,7 +304,8 @@ a:hover {
     margin-left: 20px; }
 
 .header {
-  float: right; }
+  float: right;   
+}
 
 .left-column {
   width: 300px; }
@@ -449,8 +462,13 @@ a:hover {
   border-radius: 15px;
   width: 100px;
   color: #fff;
-  background-color: #808080;
-  margin-bottom: 10px; }
+  background-color: #DBDBDB;
+  margin-bottom: 10px; 
+}
+
+.next-meetup .red-link {
+  color: #DBDBDB;
+}
 
 .md-date {
   font-size: 70px; }
@@ -760,7 +778,7 @@ div.dsq-trackback-url {
 }
 
 .socials-sidebar a {
-  background-color: #808080;
+  background-color: #DBDBDB;
   color: white;
   margin: 3px;
   width: 25px;
