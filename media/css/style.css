@@ -249,7 +249,7 @@ a:hover {
     height: 200px;
     background-repeat: no-repeat;
     background-position: right; 
-    background-size: 93%;
+    background-size: 96%;
 }
 
 .page-header {  
@@ -292,12 +292,11 @@ a:hover {
 
 #main {
   display: inline-block;
-  width: 930px;
+  width: 990px;
   margin: 0 auto; }
   #widgets {
     float: left;
-    width: 200px;
-    margin: 0 30px; }
+    width: 300px; }
   #content {
     float: left;
     width: 630px;
@@ -355,9 +354,12 @@ a:hover {
   margin-top: 40px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  background-color: #1d2d40;
-  color: #fff;
+  color: black;
   padding: 20px 20px 35px; }
+
+.twitter img {
+  width: 100px;
+}
 
 .google-plus {
   padding-top: 20px; }
@@ -461,13 +463,13 @@ a:hover {
   -moz-border-radius: 15px;
   border-radius: 15px;
   width: 100px;
-  color: #fff;
-  background-color: #DBDBDB;
+  color: black;
   margin-bottom: 10px; 
 }
 
 .next-meetup .red-link {
-  color: #DBDBDB;
+  color: black;
+  text-decoration: underline;
 }
 
 .md-date {
@@ -558,14 +560,14 @@ a:hover {
   background-position: 0 4px; }
 
 .google-post-header {
-  font-size: 16px; }
+  font-size: 14px; 
+}
 
 .google-post {
   padding-top: 25px; }
 
 .nm-next, .nm-participate {
   padding-bottom: 10px;
-  font-weight: bold;
   font-size: 17px; }
 
 .link, .link:visited {
