@@ -9,8 +9,7 @@ jQuery.ajax
 .error () ->  
   $('.job-badge').html(1);
 
-githubJobs = (entries) ->
-  alert entries.length    
+githubJobs = (entries) ->  
   $('.job-badge').html(entries.length);
 
   for entry, counter in entries when counter < 10

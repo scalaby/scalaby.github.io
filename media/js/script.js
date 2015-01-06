@@ -19,7 +19,6 @@ jQuery.ajax({
 
 githubJobs = function(entries) {
   var counter, entry, _i, _len, _results;
-  alert(entries.length);
   $('.job-badge').html(entries.length);
   _results = [];
   for (counter = _i = 0, _len = entries.length; _i < _len; counter = ++_i) {
