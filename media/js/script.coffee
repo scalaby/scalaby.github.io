@@ -2,6 +2,21 @@ String::trim ?= -> @replace /^\s+|\s+$/g, ''
 
 google.load 'feeds', '1'
 
+jQuery.ajax
+  url: "https://api.github.com/repos/scalaby/jobs/issues"
+.done (data) ->
+  githubJobs data
+
+githubJobs = (entries) ->    
+  for entry, counter in entries when counter < 3
+    $('.github-jobs-entries').append """
+      <div class="github-job">
+        <span class="job-date">#{entry.created_at.substring(0, 10)}</span>
+        <span class="job-subject">
+          <a href="#{entry.html_url}" class="link">#{entry.title}</a>
+        </span>
+      </div>
+    """
 
 getDate = (str) ->
   date = new Date str
