@@ -6,9 +6,14 @@ jQuery.ajax
   url: "https://api.github.com/repos/scalaby/jobs/issues"
 .done (data) ->
   githubJobs data
+.error () ->  
+  $('.job-badge').html(1);
 
-githubJobs = (entries) ->    
-  for entry, counter in entries when counter < 3
+githubJobs = (entries) ->
+  alert entries.length    
+  $('.job-badge').html(entries.length);
+
+  for entry, counter in entries when counter < 10
     $('.github-jobs-entries').append """
       <div class="github-job">
         <span class="job-date">#{entry.created_at.substring(0, 10)}</span>
