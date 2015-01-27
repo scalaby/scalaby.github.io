@@ -7,6 +7,8 @@ author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
 
 Scala Laboratory – это возможность для практикующих разработчиков (busy python-, java-, .net-, *-developers), получить опыт server-side и web-development на Scala, участвуя в production-ready проекте, при поддержке опытных менторов.  
 
+<img width="95%" src="http://scaladays.org/ny2013/assets/images@2x/phone-view.png"/>
+
 В отличие от курсов на Coursera, предлагающих академическое обучение аспектам языка и особенностям функционального подхода, Scala Laboratory даст вам опыт, который позволит участвовать в реальном проекте. 
 
 Учебная программа охватывает следующие темы:
