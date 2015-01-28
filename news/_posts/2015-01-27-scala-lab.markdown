@@ -3,6 +3,8 @@ layout: page
 title: Scala Laboratory в Минске
 author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
 ---
+***UPDATE.** Коллеги, мы временно приостанавливаем регистрацию! Количество регистраций уже на порядок превысило наши ожидания. Спасибо за интерес и поддержку этого начинания! Как только мы определимся с первым потоком заявок, мы продолжим набор.* 
+
 Компания Adform в сотрудничестве с Cherrit запускает Scala Laboratory!
 
 Scala Laboratory – это возможность для практикующих разработчиков (busy python-, java-, .net-, *-developers), получить опыт server-side и web-development на Scala, участвуя в production-ready проекте, при поддержке опытных менторов.  
