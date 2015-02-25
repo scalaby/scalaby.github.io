@@ -1,0 +1,23 @@
+---
+layout: page
+title: Scala Laboratory. Частые вопросы по результатам первой итерации
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+Первая итерация Scala Laboratory сегодня подошла к концу. Крайне приятно отметить тот факт, что все, кто подал заявки на участие в Laboratory, и посетил встречу, своевременно выполнили первую часть проекта! Сегодня начинается вторая итерация, которая будет длиться 2 недели. Ее материалы находятся [в открытом доступе](https://github.com/adform/Laboratory.Globus/wiki/3.2.-Iteration-%232.-Intro-to-monads-and--type-system).
+
+[<img src="/media/img/scala-lab-1.png" width="620px"/>](https://github.com/adform/Laboratory.Globus/network)
+
+Во время code review участников лаборатории мы выявили ряд пересекаюшихся ворпосов. Развернутые ответы на них мы давали в рамках code review и в чате группы. Если вы только начинаете изучать Scala, они могут быть вам крайне полезны:
+
+* [использование case class, case object и trait для доменного моделирования](https://gitter.im/adform/Laboratory.Globus?at=54db112c620fc547551ea08a)
+* [понятие чистой функции и immutable-объекта](https://github.com/adform/Laboratory.Globus/pull/6#discussion-diff-25242887)
+* [как правильно обновлять вложеные case class'ы](https://github.com/adform/Laboratory.Globus/pull/5#issuecomment-75613524)
+* [почему в Scala нет null и NPE](https://github.com/adform/Laboratory.Globus/pull/2#discussion-diff-24742372)
+* [альтернативы Exception в Scala: Try, Either, Validation](https://gitter.im/adform/Laboratory.Globus?at=54ec490732ea501139a9eb5e)
+
+---
+
+Материалы второй итерации:	
+
+* Презентация: [https://github.com/adform/Laboratory.Globus/wiki/3.2.-Iteration-%232.-Intro-to-monads-and--type-system](https://github.com/adform/Laboratory.Globus/wiki/3.2.-Iteration-%232.-Intro-to-monads-and--type-system)
+* Открытый чат проекта: [https://gitter.im/adform/Laboratory.Globus](https://gitter.im/adform/Laboratory.Globus)
