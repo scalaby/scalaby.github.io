@@ -1,0 +1,12 @@
+---
+layout: page
+title: Scala Laboratory. Actors в Akka
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+В этот вторник началась 3-я итерация ScalaLab. Ее задача - переписать бизнес-логику приложения таким образом, чтобы **попрактиковать использование actors, supervisors и dispatchers** из [фреймворка Akka](doc.akka.io/docs/akka/2.3.9/scala.html). 
+
+В качестве пробы, в этот раз мы провели сессию в формате вебинара. Те, кто не смог на ней присутствовать, могут посмотреть запись:
+
+<iframe src="https://player.vimeo.com/video/122471880" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+Все материлы, как всегда, [в свободном доступе](https://github.com/adform/Laboratory.Globus/wiki/3.3.-Iteration-%233.-Parallel-computation-in-Scala). В любой момент, даже если вы не являетесь членом группы, вы можете прийти в [чат лаборатории](https://gitter.im/adform/Laboratory.Globus) с интересуюшими вас вопросами!
