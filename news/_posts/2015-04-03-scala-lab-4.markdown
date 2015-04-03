@@ -1,0 +1,12 @@
+---
+layout: page
+title: Scala Laboratory. Functional Programming with Scalaz and Algebird
+author: <a href="http://twitter.com/remeniuk">Василий Ременюк</a>
+---
+В этот вторник началась 4-я итерация ScalaLab. Ее задача - переписать бизнес-логику приложения таким образом, чтобы попрактиковать функциональный подход с использованием библиотек Scalaz и Algebird. 
+
+В качесвте эксперимента, в этот раз сессию провели наши коллеги из вильнюсского офиса:
+
+<iframe src="https://player.vimeo.com/video/123946628" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+
+В любой момент, даже если вы не являетесь членом группы, вы можете прийти в [чат лаборатории](https://gitter.im/adform/Laboratory.Globus) с интересующими вас вопросами!
